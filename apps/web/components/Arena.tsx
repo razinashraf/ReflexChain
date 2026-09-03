@@ -42,9 +42,14 @@ export function Arena(props: ArenaProps) {
   const [joinCode, setJoinCode] = useState('');
 
   // No validator answered, so there is nothing to play against. Rather than
-  // offering controls that can only fail, explain what this page is and how to
-  // bring a network up.
-  const networkDown = networkMode === 'NOT_CONNECTED' && !coordinatorLinked;
+  // offering controls that can only fail, explain what this page is.
+  //
+  // Keyed off chainSource rather than networkMode: the sockets retry forever, so
+  // networkMode oscillates between CONNECTING and NOT_CONNECTED and is almost
+  // never observed in the latter. Falling back to the archived chain, by
+  // contrast, happens only after every validator failed to answer - which is
+  // exactly the condition worth explaining.
+  const networkDown = chainSource === 'SNAPSHOT' || (networkMode === 'NOT_CONNECTED' && !coordinatorLinked);
 
   const light = LIGHT[phase];
   const inMatch = match !== null;

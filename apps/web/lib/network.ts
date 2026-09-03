@@ -221,7 +221,10 @@ export async function fetchSnapshot(): Promise<{
   exportedAt: string;
 } | null> {
   try {
-    const res = await fetch(SNAPSHOT_URL, { cache: 'force-cache' });
+    // Deliberately NOT force-cache: that pins the first snapshot a visitor ever
+    // fetched, so a redeploy with a fresh chain would still show them the old
+    // one. Default caching lets the browser revalidate against the host.
+    const res = await fetch(SNAPSHOT_URL);
     if (!res.ok) return null;
     const body = (await res.json()) as { blocks: unknown[]; exportedAt: string };
     return Array.isArray(body.blocks) && body.blocks.length > 0 ? body : null;
