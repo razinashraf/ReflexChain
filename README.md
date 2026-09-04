@@ -1576,53 +1576,6 @@ than blindly trusting a server's "CHAIN VALID" message.
 
 ------------------------------------------------------------------------
 
-# 📂 Project structure
-
-``` text
-REFLEXCHAIN/
-│
-├── apps/
-│   ├── web/
-│   │   ├── app/
-│   │   │   ├── page.tsx
-│   │   │   └── explorer/
-│   │   ├── components/
-│   │   └── lib/
-│   │       ├── wallet.ts
-│   │       ├── network.ts
-│   │       └── store.ts
-│   │
-│   ├── coordinator/
-│   │   └── src/
-│   │       ├── index.ts
-│   │       ├── match.ts
-│   │       └── validatorLink.ts
-│   │
-│   └── validator/
-│       └── src/
-│           ├── index.ts
-│           ├── node.ts
-│           └── store.ts
-│
-├── packages/
-│   └── protocol/
-│       └── src/
-│           ├── crypto.ts
-│           ├── canonical.ts
-│           ├── rules.ts
-│           ├── consensus.ts
-│           ├── settlement.ts
-│           ├── validators.ts
-│           ├── block.ts
-│           ├── chain.ts
-│           └── leaderboard.ts
-│
-├── scripts/
-└── data/
-```
-
-------------------------------------------------------------------------
-
 # 📊 What the dashboard actually represents
 
 One of the goals was to avoid making a dashboard that **looks**
