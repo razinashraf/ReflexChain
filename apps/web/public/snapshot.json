@@ -1,0 +1,2948 @@
+{
+  "exportedAt": "2026-09-03T17:38:30.991Z",
+  "sourceValidator": "node-01",
+  "registeredValidators": 5,
+  "height": 12,
+  "headHash": "9f44369f52b85b365a037f761b753773147bed111aa655da15c2bec07b38221a",
+  "transactions": 24,
+  "leaderboard": [
+    {
+      "rank": 1,
+      "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+      "label": "0x51A3",
+      "bestReactionMs": 151,
+      "averageReactionMs": 198,
+      "matchesPlayed": 3,
+      "roundsWon": 1,
+      "falseStarts": 1,
+      "winRate": 33
+    },
+    {
+      "rank": 2,
+      "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+      "label": "0x02B5",
+      "bestReactionMs": 151,
+      "averageReactionMs": 209,
+      "matchesPlayed": 2,
+      "roundsWon": 1,
+      "falseStarts": 0,
+      "winRate": 50
+    },
+    {
+      "rank": 3,
+      "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+      "label": "0x5506",
+      "bestReactionMs": 153,
+      "averageReactionMs": 215,
+      "matchesPlayed": 2,
+      "roundsWon": 1,
+      "falseStarts": 0,
+      "winRate": 50
+    },
+    {
+      "rank": 4,
+      "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+      "label": "0x025C",
+      "bestReactionMs": 158,
+      "averageReactionMs": 202,
+      "matchesPlayed": 2,
+      "roundsWon": 2,
+      "falseStarts": 0,
+      "winRate": 100
+    },
+    {
+      "rank": 5,
+      "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+      "label": "0x29D0",
+      "bestReactionMs": 161,
+      "averageReactionMs": 208,
+      "matchesPlayed": 3,
+      "roundsWon": 2,
+      "falseStarts": 0,
+      "winRate": 67
+    },
+    {
+      "rank": 6,
+      "player": "0xc1254f70bbefe94168dd292d9a43c3cbf7a37514",
+      "label": "0xC125",
+      "bestReactionMs": 178,
+      "averageReactionMs": 178,
+      "matchesPlayed": 1,
+      "roundsWon": 1,
+      "falseStarts": 0,
+      "winRate": 100
+    },
+    {
+      "rank": 7,
+      "player": "0x288b25ea99674cc3174e4f1b5e8deca70840a2bb",
+      "label": "0x288B",
+      "bestReactionMs": 179,
+      "averageReactionMs": 179,
+      "matchesPlayed": 1,
+      "roundsWon": 1,
+      "falseStarts": 0,
+      "winRate": 100
+    },
+    {
+      "rank": 8,
+      "player": "0x68f561f74377b3d627ba999a7071d02c2e13198c",
+      "label": "0x68F5",
+      "bestReactionMs": 188,
+      "averageReactionMs": 188,
+      "matchesPlayed": 1,
+      "roundsWon": 1,
+      "falseStarts": 0,
+      "winRate": 100
+    },
+    {
+      "rank": 9,
+      "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+      "label": "0x3812",
+      "bestReactionMs": 188,
+      "averageReactionMs": 199,
+      "matchesPlayed": 3,
+      "roundsWon": 1,
+      "falseStarts": 0,
+      "winRate": 33
+    },
+    {
+      "rank": 10,
+      "player": "0xbd71a86c7601e0867551c59cbaeb619a47a268fd",
+      "label": "0xBD71",
+      "bestReactionMs": 201,
+      "averageReactionMs": 201,
+      "matchesPlayed": 1,
+      "roundsWon": 1,
+      "falseStarts": 0,
+      "winRate": 100
+    },
+    {
+      "rank": 11,
+      "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+      "label": "0x1AD4",
+      "bestReactionMs": 219,
+      "averageReactionMs": 240,
+      "matchesPlayed": 2,
+      "roundsWon": 0,
+      "falseStarts": 0,
+      "winRate": 0
+    },
+    {
+      "rank": 12,
+      "player": "0x046903f766eae3a4995eb680c64ef8c265e2894c",
+      "label": "0x0469",
+      "bestReactionMs": 220,
+      "averageReactionMs": 220,
+      "matchesPlayed": 1,
+      "roundsWon": 0,
+      "falseStarts": 0,
+      "winRate": 0
+    },
+    {
+      "rank": 13,
+      "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+      "label": "0xF243",
+      "bestReactionMs": 230,
+      "averageReactionMs": 251,
+      "matchesPlayed": 2,
+      "roundsWon": 0,
+      "falseStarts": 0,
+      "winRate": 0
+    }
+  ],
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": 1735689600000,
+      "matchId": "genesis",
+      "transactions": [],
+      "winner": null,
+      "winningReactionMs": null,
+      "previousHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "merkleRoot": "0000000000000000000000000000000000000000000000000000000000000000",
+      "nonce": "the-fastest-valid-reaction-becomes-the-next-block",
+      "proposer": "network",
+      "consensus": {
+        "approvals": 0,
+        "total": 0,
+        "threshold": 0
+      },
+      "proposerSig": "",
+      "hash": "d2f01518e9deef56bf27cb2ffc1fbfdb3de5062d59d1334b37893ce2fa11a592"
+    },
+    {
+      "index": 1,
+      "timestamp": 1788455108556,
+      "matchId": "match-seed-59a698d0",
+      "transactions": [
+        {
+          "txId": "ea5ea78f721aadaa",
+          "matchId": "match-seed-59a698d0",
+          "turnIndex": 0,
+          "player": "0xbd71a86c7601e0867551c59cbaeb619a47a268fd",
+          "outcome": "VALID",
+          "reactionMs": 201,
+          "eventId": "9a8de49742a82c2a",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "9a8de49742a82c2a",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 0,
+              "player": "0xbd71a86c7601e0867551c59cbaeb619a47a268fd",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 198,
+              "canonicalReactionMs": 201,
+              "votedAt": 1788455107468,
+              "sig": "91965654ce7d4bad7b1ca14628acfe904d487abb2955225a66d80b9eb5f7a146d6213b81e8045f3946af5f5a75dc925758691fb279d908134810cba52592970e"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "9a8de49742a82c2a",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 0,
+              "player": "0xbd71a86c7601e0867551c59cbaeb619a47a268fd",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 188,
+              "canonicalReactionMs": 201,
+              "votedAt": 1788455107463,
+              "sig": "ccd43e7d1a49171fb5e01629b2ba32f5a1bb3b9842930d323fa2a4e4a809073b6965efacc9fca1811c8b43a88c8001056e74b0bf82157a320c1f2b0038ad5b0c"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "9a8de49742a82c2a",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 0,
+              "player": "0xbd71a86c7601e0867551c59cbaeb619a47a268fd",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 188,
+              "canonicalReactionMs": 201,
+              "votedAt": 1788455107465,
+              "sig": "7881ecc5e4320eddd188bfc18f7af47dbc8c42cddc6a7c4f64e31970ee629e4b9f12808cc8104b59e61efd831b1dbc942411ec97ffc8b75c18f5cf4a2075c409"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "9a8de49742a82c2a",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 0,
+              "player": "0xbd71a86c7601e0867551c59cbaeb619a47a268fd",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 187,
+              "canonicalReactionMs": 201,
+              "votedAt": 1788455107465,
+              "sig": "41b75534fde930fdb59b48e8a2e093063fbeab091b0af4c2ebd677b5e51cf6054892b36831347144edca99fa0cbd280cfa8d10db90fb281e66c35919c1271401"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "9a8de49742a82c2a",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 0,
+              "player": "0xbd71a86c7601e0867551c59cbaeb619a47a268fd",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 193,
+              "canonicalReactionMs": 201,
+              "votedAt": 1788455107468,
+              "sig": "3efab6fb7786d875ff543755a8ab3eb55bd2e0c93fdb6a0942b9af4e35b78c3d3b240f69cba564e76d3b21fcf01f3cd59266fcae2a51532ed91a34f8c287e403"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "abec9fc7c3a53ff0",
+          "matchId": "match-seed-59a698d0",
+          "turnIndex": 1,
+          "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+          "outcome": "VALID",
+          "reactionMs": 230,
+          "eventId": "aa7731751c6c976c",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "aa7731751c6c976c",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 1,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 239,
+              "canonicalReactionMs": 230,
+              "votedAt": 1788455108425,
+              "sig": "674727397ed2657527e93f3f280c1b5aab7f03251aac264229c15a78185c46967b76b2826ab134ffdc57a96bba41474d7e0f836e40eebc43c301f7cd1928300f"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "aa7731751c6c976c",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 1,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 240,
+              "canonicalReactionMs": 230,
+              "votedAt": 1788455108425,
+              "sig": "c8de2b946db37a501cf70835cfb55a593eb1fec42911566dcb4f0c5a9f49e4391a06955ea3ed52190158cf30feeb85041bf9e90797c682ca65f3e90b9513ef02"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "aa7731751c6c976c",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 1,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 243,
+              "canonicalReactionMs": 230,
+              "votedAt": 1788455108426,
+              "sig": "6fb7ebc932be0cdc4546bceb20362cfb705046a18cbe58649e0a0ebd3413ccfa072ffbe6dc20c2811bde13f176654ade5987b9fe9048df8560b477cf5de51207"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "aa7731751c6c976c",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 1,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 243,
+              "canonicalReactionMs": 230,
+              "votedAt": 1788455108427,
+              "sig": "d295f6be387d72613a47a0a2740f5dec4e7d6dd7e9005004544c490e9445b61a292ef2032dcb773bf71e09a703a43bc1c249a0bc4b8e537b403205da34c86d0c"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "aa7731751c6c976c",
+              "matchId": "match-seed-59a698d0",
+              "turnIndex": 1,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 245,
+              "canonicalReactionMs": 230,
+              "votedAt": 1788455108429,
+              "sig": "8e29711a2d6aa9997ce95309f56606a1105ee2644c7db64fb9f978cee7237f853f443c562053966bbc7dcec0e3591da05bb0e6aadff78637c0ca2fe71b734a09"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0xbd71a86c7601e0867551c59cbaeb619a47a268fd",
+      "winningReactionMs": 201,
+      "previousHash": "d2f01518e9deef56bf27cb2ffc1fbfdb3de5062d59d1334b37893ce2fa11a592",
+      "merkleRoot": "f94eea4414c7bcbda4d107ab9419372458f35ce6704ae1719ae44f5abf01ad03",
+      "nonce": "2254d5a248c797bb",
+      "proposer": "node-02",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "1ff38f85e6fe0a6098059cdd4304950f042b73e24f78040c81723c6ed6fef00d5c97542622edf3ade7bda5b3a635143e05b6d6da4cf4676295e91ded4742dc01",
+      "hash": "011b026b97994ebddfc86b71a6bcdf8d82ff79045c55bdc2567973a35ff764d5"
+    },
+    {
+      "index": 2,
+      "timestamp": 1788455112297,
+      "matchId": "match-seed-abdac35c",
+      "transactions": [
+        {
+          "txId": "b8832b7c9cc98a01",
+          "matchId": "match-seed-abdac35c",
+          "turnIndex": 0,
+          "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+          "outcome": "VALID",
+          "reactionMs": 272,
+          "eventId": "47beb8f288975004",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "47beb8f288975004",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 0,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 262,
+              "canonicalReactionMs": 272,
+              "votedAt": 1788455111296,
+              "sig": "04eeb8160ee36437d62677c40488bd921224c767b538be5bd41ad1c4b6c5d445e0b1bd8fafd278d3a32403204473b0a423303626f55f6691aeb01451b822270e"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "47beb8f288975004",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 0,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 402,
+              "canonicalReactionMs": 272,
+              "votedAt": 1788455111437,
+              "sig": "fa6f844a91f1f2c0fd76279d0ab5d8524f9bbc70c973bb50d35367f3a8c9cd77887b97e2f2d40bdd17d0f1cdf6d73d598447dc9ed18c38fc1165938085271b02"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "47beb8f288975004",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 0,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 381,
+              "canonicalReactionMs": 272,
+              "votedAt": 1788455111416,
+              "sig": "401c606086f621f62848d438cb733bdf5cf0b07f2ec36a0613470c13908fb83f8d744b2e160c39dd967ff65f4c65d4cedaa27d3b10e9c8995c3789a451b7fb03"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "47beb8f288975004",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 0,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 276,
+              "canonicalReactionMs": 272,
+              "votedAt": 1788455111296,
+              "sig": "63f9bf27385ac1523afb67ad558286d13a26559a734ba2ebfccb164ed40d814484f54f1cf8e8460691b5f9b63de33b5f47e560b7d3b8e8a07d83ffbcfdf4f901"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "47beb8f288975004",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 0,
+              "player": "0xf2437fb2f83751365db0b0dde435c33eddaf3196",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 216,
+              "canonicalReactionMs": 272,
+              "votedAt": 1788455111296,
+              "sig": "b8c0279ef3d33b9954a550f69d3c7422a5469406b2c7129fddb8b502bbddbebadba56cd5f4760a45e8852885d5427cdc4a28cfaf43683d725d9151ae1f353102"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "481fe70b014d8027",
+          "matchId": "match-seed-abdac35c",
+          "turnIndex": 1,
+          "player": "0x288b25ea99674cc3174e4f1b5e8deca70840a2bb",
+          "outcome": "VALID",
+          "reactionMs": 179,
+          "eventId": "8ae9e9a8b1ad5d1d",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "8ae9e9a8b1ad5d1d",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 1,
+              "player": "0x288b25ea99674cc3174e4f1b5e8deca70840a2bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 182,
+              "canonicalReactionMs": 179,
+              "votedAt": 1788455112204,
+              "sig": "fd1ff3f211561bff2ac8cb9d3a37c883ecc5a4faee51b8d6db65967f7042ab3d1bd611e288dc6f07e71339b5844fcd159e039a87e3ca29d0ff4cf2822e432a02"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "8ae9e9a8b1ad5d1d",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 1,
+              "player": "0x288b25ea99674cc3174e4f1b5e8deca70840a2bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 171,
+              "canonicalReactionMs": 179,
+              "votedAt": 1788455112204,
+              "sig": "a4800598010a50bdd9046d33531f66d1bacda44568e62e6110f462efe9467b13618c787fe886c8c8eab350d5bdccf159e7b4b66a261228ffd3381c3733739b0f"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "8ae9e9a8b1ad5d1d",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 1,
+              "player": "0x288b25ea99674cc3174e4f1b5e8deca70840a2bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 182,
+              "canonicalReactionMs": 179,
+              "votedAt": 1788455112203,
+              "sig": "bfc8b50c47c4ce105ffbe6840f2611d5828851b91989e2113492b0e57568cd834674a01555e955b220248325656bca1e7f6a3b373d1ff65345bb638cf26e780f"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "8ae9e9a8b1ad5d1d",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 1,
+              "player": "0x288b25ea99674cc3174e4f1b5e8deca70840a2bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 181,
+              "canonicalReactionMs": 179,
+              "votedAt": 1788455112204,
+              "sig": "fb4a61ab1f7b3754602dfce517ca19b2ed407a0d3f083e321cb58d6e473637bf7f951e05c788988143899e63c49acac6d7688e81b8bb069f0b34f9c3abe2a108"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "8ae9e9a8b1ad5d1d",
+              "matchId": "match-seed-abdac35c",
+              "turnIndex": 1,
+              "player": "0x288b25ea99674cc3174e4f1b5e8deca70840a2bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 184,
+              "canonicalReactionMs": 179,
+              "votedAt": 1788455112215,
+              "sig": "a96e23851f700cbb7c23728d682c3f9ff49d92fab77dd4eefcbeb699a7a7d773af56e3f7b5a1d9007b1fb5de865fc9842c860052858f6dc4dfe23abb1474400c"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0x288b25ea99674cc3174e4f1b5e8deca70840a2bb",
+      "winningReactionMs": 179,
+      "previousHash": "011b026b97994ebddfc86b71a6bcdf8d82ff79045c55bdc2567973a35ff764d5",
+      "merkleRoot": "4257d2b54b95af9ebde4eacd06a3d441d8c316b731b5e5fa382c7a47b4e4663a",
+      "nonce": "d3e0c47db42fada2",
+      "proposer": "node-04",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "50c56d23b58c30ec9e24b39a5f91e21359227449aacf176155d0337893b392f2462a8cf62bffa460c04c71864838b33f980de17d45643dafe1a29bd2147ab20e",
+      "hash": "54d8acc5a1b2239530bfbc066f1ee6951895388d7d3dd35f7b12848cdc09047c"
+    },
+    {
+      "index": 3,
+      "timestamp": 1788455116049,
+      "matchId": "match-seed-3b67dc1a",
+      "transactions": [
+        {
+          "txId": "2e9ac4fe75d9c6d2",
+          "matchId": "match-seed-3b67dc1a",
+          "turnIndex": 0,
+          "player": "0x68f561f74377b3d627ba999a7071d02c2e13198c",
+          "outcome": "VALID",
+          "reactionMs": 188,
+          "eventId": "1ece4d106f542843",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "1ece4d106f542843",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 0,
+              "player": "0x68f561f74377b3d627ba999a7071d02c2e13198c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 192,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788455115020,
+              "sig": "d82ba3bebe2ad5ac78e80624e80c0fc074b16bc6a5938c760a0a29339b99b9d04b27055d6fd1ed1deb8ea56fcf648eab96975dad63ec711356affd5545dc210a"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "1ece4d106f542843",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 0,
+              "player": "0x68f561f74377b3d627ba999a7071d02c2e13198c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 193,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788455115021,
+              "sig": "593645c10d9b55c06f3d9c0e102adf797a02f66d45bbc98bcde67a7157c5b2604a22995b368e7221af98123a2b265418455bf9782d8482fc551c417833c4d80e"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "1ece4d106f542843",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 0,
+              "player": "0x68f561f74377b3d627ba999a7071d02c2e13198c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 193,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788455115021,
+              "sig": "2afe234de401340e2ab536e22bbb45a8fc4894ec245aaa91ebef4f3e3ca6efc2c814450ef72e2413f275cbfff44db1344d3e9769429ecac6260729c32dd04908"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "1ece4d106f542843",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 0,
+              "player": "0x68f561f74377b3d627ba999a7071d02c2e13198c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 193,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788455115020,
+              "sig": "2ba73e48804c9f484887f84023bfa76cf54f0164ca8c726078539e1d5dd31dbda65ff139b9923a647ba21d34ffeb9d3ca80d2ebdf475414512238b3eb62c2205"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "1ece4d106f542843",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 0,
+              "player": "0x68f561f74377b3d627ba999a7071d02c2e13198c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 194,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788455115021,
+              "sig": "39681fce949148c4b8b25b5173551ff50fed758f7c753d730cf5c3d68573440ece8374e61a0c190bc9cd7d631244fd960a6d4715bd6ff2ab52a7d29cb28f3908"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "5f117040b6ddede6",
+          "matchId": "match-seed-3b67dc1a",
+          "turnIndex": 1,
+          "player": "0x046903f766eae3a4995eb680c64ef8c265e2894c",
+          "outcome": "VALID",
+          "reactionMs": 220,
+          "eventId": "1e13e523c730d046",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "1e13e523c730d046",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 1,
+              "player": "0x046903f766eae3a4995eb680c64ef8c265e2894c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 225,
+              "canonicalReactionMs": 220,
+              "votedAt": 1788455115973,
+              "sig": "1ae25bf43549a365925e7317c46e33a62c8967511992901d7b459643b3785b35a365681ed3d72aca21d26672a94002b398161c805a5e5488cc6f1b320541d30e"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "1e13e523c730d046",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 1,
+              "player": "0x046903f766eae3a4995eb680c64ef8c265e2894c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 228,
+              "canonicalReactionMs": 220,
+              "votedAt": 1788455115974,
+              "sig": "9bd13f3c02790a6a7e61414269f211811ef0a395320f44788106956431323920366a888e54867a2fa32b679b5a480c419ed2d12354bdd33444aa7f8af1197406"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "1e13e523c730d046",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 1,
+              "player": "0x046903f766eae3a4995eb680c64ef8c265e2894c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 226,
+              "canonicalReactionMs": 220,
+              "votedAt": 1788455115973,
+              "sig": "eee55d1976ad0f253b6f50c10fc7b9b8476052fbed5d8dc21a69d038e3bb0ca090c30c57c5dd69fbd7b022b18c212c9a105f638836dcf0e66bc804aafe93fb0d"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "1e13e523c730d046",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 1,
+              "player": "0x046903f766eae3a4995eb680c64ef8c265e2894c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 228,
+              "canonicalReactionMs": 220,
+              "votedAt": 1788455115973,
+              "sig": "333097a8314dd336da7a6c702a45352c64f1a6e98d2b9b690ac423e7b5afb71744f6a64a4e250d0348887a26323d6649567ebf7b86706157126b669c6043d30b"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "1e13e523c730d046",
+              "matchId": "match-seed-3b67dc1a",
+              "turnIndex": 1,
+              "player": "0x046903f766eae3a4995eb680c64ef8c265e2894c",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 226,
+              "canonicalReactionMs": 220,
+              "votedAt": 1788455115973,
+              "sig": "54ecd7318a4bed064973922b8f76afa4e52d4d011aa34fc0dd62f022c43d89f916eac7d691fb19ec5c236eae0e93cda78e006efbae206dd311b47aa3bd05160b"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0x68f561f74377b3d627ba999a7071d02c2e13198c",
+      "winningReactionMs": 188,
+      "previousHash": "54d8acc5a1b2239530bfbc066f1ee6951895388d7d3dd35f7b12848cdc09047c",
+      "merkleRoot": "59906b72549ede499a9d62a3864e261ab13a4b7c5e7a4f96eb23a4d6998809aa",
+      "nonce": "d7243f9332ca9351",
+      "proposer": "node-04",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "bedaf320be0d41cdcb1d0a090247fadf55c51c4357a5ca9bd12f66cdeaa45a427c3dba2e9557baf800a1f78310c7471bfbe07989b5fe70fa7c43644e66ae7203",
+      "hash": "793a704017e20e926bfe3ec3eccbdd883cc7e85aab8f6c7fa16e3c0c0e45697b"
+    },
+    {
+      "index": 4,
+      "timestamp": 1788457070062,
+      "matchId": "match-seed-e969bd77",
+      "transactions": [
+        {
+          "txId": "a9d55b8132d7f370",
+          "matchId": "match-seed-e969bd77",
+          "turnIndex": 0,
+          "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+          "outcome": "VALID",
+          "reactionMs": 188,
+          "eventId": "73a9078af4a10bbd",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "73a9078af4a10bbd",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 193,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788457068838,
+              "sig": "260f2ef379fd1d85508c596ced8ebec02c6d672ba13461408f7a8f30d45fd9152585ee8ca687df4f17d4e15a0066525ab1c3a6570c2c31d8213de78448a46a0e"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "73a9078af4a10bbd",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 195,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788457068838,
+              "sig": "447ea0461e3c530384e0d8a2152e127170d9a08d4fb9f94b55f01276d7be6c60dca2c22748dd44c35bb6dbc71bfeed2141180c7cea6e022f71af0a25cfb66704"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "73a9078af4a10bbd",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 194,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788457068838,
+              "sig": "11396373e4d715376633929eed4756e8b70e7cff2d03b2610fabe575686d4ae1de0c7ae6a887602084717a044ee952e1151bc380e26c4fc038947415f31c2109"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "73a9078af4a10bbd",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 195,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788457068837,
+              "sig": "5a265faebeca3f2d8d2c152f3f0ca55860c76f6fb29a14d60af2eeba6eb25f37bc66d5445bc98ed7b25bff0dc7fbaca69449eb361054127628e1ad2b6960cc0a"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "73a9078af4a10bbd",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 193,
+              "canonicalReactionMs": 188,
+              "votedAt": 1788457068837,
+              "sig": "7cea4b8cd0724bb2c6c0325df6b2b83af3d130adbcf18726a7b75b800c01ffc8aa3fb15b9f09f6aadac4c123ba9478844e97247754c8d56b752a94d636b31802"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "b3386ca1d8d2d699",
+          "matchId": "match-seed-e969bd77",
+          "turnIndex": 1,
+          "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+          "outcome": "VALID",
+          "reactionMs": 161,
+          "eventId": "a9d0e5c53342d4e3",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "a9d0e5c53342d4e3",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 158,
+              "canonicalReactionMs": 161,
+              "votedAt": 1788457069706,
+              "sig": "261a0b464461970e5b44c25a255b6570ab0538c52f7f5bab7215245015d15d2aa524cfa851d6539ac28a20daa48ad022881ae2800d20bd6af7c53bf7d0952d08"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "a9d0e5c53342d4e3",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 69,
+              "canonicalReactionMs": 161,
+              "votedAt": 1788457069707,
+              "sig": "b81db9abaab1cace30d0b9078714d77ea2902261fabdf8477c3057c3c4b20b4a1b004a9b10fadf160d7d48ace4e03d22c197e8199453270816709a815d969b01"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "a9d0e5c53342d4e3",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 163,
+              "canonicalReactionMs": 161,
+              "votedAt": 1788457069707,
+              "sig": "0141ecc4c582720cc60dc008bd50c6226af41a55640adc67aabecf9a9736b337abc49917ca22d07cf5f88d7b375ec09cef643d123cbd941ffba0c305bd895401"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "a9d0e5c53342d4e3",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 160,
+              "canonicalReactionMs": 161,
+              "votedAt": 1788457069707,
+              "sig": "6285160c860a08147b6e1cbe1e7809748fd0a3dbf8bce71bc9001a149daa6331ab284946f1f428ae6804a2e279e8557de6d1ab8327c114f200bb48755e271c0d"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "a9d0e5c53342d4e3",
+              "matchId": "match-seed-e969bd77",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 161,
+              "canonicalReactionMs": 161,
+              "votedAt": 1788457069707,
+              "sig": "9f84c3827f96cfe4b60f349ff73138f912535d4e6a3cdabacbb694443d22bee7270bfd4771b6625b3b9fb6cbb68173d4d333ffb91c4d23dcbcce6962ccc56105"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+      "winningReactionMs": 161,
+      "previousHash": "793a704017e20e926bfe3ec3eccbdd883cc7e85aab8f6c7fa16e3c0c0e45697b",
+      "merkleRoot": "476357617bec0b17ab37f005bbd11e655167a4677e80232c7eec3a4426bc5e5f",
+      "nonce": "880943e2b8eb2104",
+      "proposer": "node-03",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "493ce08b38b49d4621648edd1cbb55d3faa33290b7e4d072201095f4e351ce1c5f654a2b86811285aa1f0f8ecc217e8d7607507be7c6af8cde769647b6217b07",
+      "hash": "3d3cd7eaebe93df5a4da592a93bf8bd7e0e573fd018703aa0f5717d59dc52ab5"
+    },
+    {
+      "index": 5,
+      "timestamp": 1788457073563,
+      "matchId": "match-seed-bc153ec3",
+      "transactions": [
+        {
+          "txId": "7a277e153536e73b",
+          "matchId": "match-seed-bc153ec3",
+          "turnIndex": 0,
+          "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+          "outcome": "VALID",
+          "reactionMs": 241,
+          "eventId": "f5b13b06be030dfa",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "f5b13b06be030dfa",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 0,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 169,
+              "canonicalReactionMs": 241,
+              "votedAt": 1788457072553,
+              "sig": "3276230a2484f6850766a3056089595499db761144182eacbfa9ffc3ce57ce54e6fd820d51e48f80e904a637085408fdee902e7272de02520f1541b11338a701"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "f5b13b06be030dfa",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 0,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 245,
+              "canonicalReactionMs": 241,
+              "votedAt": 1788457072553,
+              "sig": "61e6234897142fffa1cc866d59205585671796e0d812e906cb4b97b10480f0eb0a0e33b34d33cd46f0b71b770713ce8663978612cb85cf796f74f3253fca020f"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "f5b13b06be030dfa",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 0,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 244,
+              "canonicalReactionMs": 241,
+              "votedAt": 1788457072553,
+              "sig": "92d2007ed52763d1c0ab368d1bdc9544392ef3fa13df0c3a7907e14e5340466aa6dacf3b20d0597c4694a88f12ffdda9d0eb59c8ecceb15e28073e31aaee8e0e"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "f5b13b06be030dfa",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 0,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 245,
+              "canonicalReactionMs": 241,
+              "votedAt": 1788457072554,
+              "sig": "c91d0307d5a4d4b24948c3566d23e8ea32f6879eacfa658b2545783f5f65005202908bb892c21e0551c01f9804d7062392dced580625b10eba14cc7acdcff407"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "f5b13b06be030dfa",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 0,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 223,
+              "canonicalReactionMs": 241,
+              "votedAt": 1788457072554,
+              "sig": "76186fb2627760520a816002fdc3e77029d2cd69d6f8972f2e0eb18a5a2458141bd17f84731205356737983b32e44e0e8901cc1144f13a916769b28714f95108"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "5389422e206f3ad6",
+          "matchId": "match-seed-bc153ec3",
+          "turnIndex": 1,
+          "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+          "outcome": "VALID",
+          "reactionMs": 151,
+          "eventId": "366932233e81dc4c",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "366932233e81dc4c",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 157,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457073442,
+              "sig": "d27f805316d8a2cba383490a861ad09950a3e42f03572eac50a97a0453e633ed274157bd3fcc7c3c4a5798fb85beeadfaf9d2d17758376737518b2bbb93a7e0f"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "366932233e81dc4c",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 155,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457073443,
+              "sig": "e89b5c9c948456fc093d3a4c24acc55d640b8e8314c7ff99a14a6683f29e9f50391b581a9011161cb8ddb4b5f552105fd365713d53d8a68ff8683b0868b26101"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "366932233e81dc4c",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 156,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457073442,
+              "sig": "5e8e88c44fae8b3251da4786b75d2179fa75ca9d6056c8dcf8fd0f52b1385dc497f24097fd3bc3f845b22eead70536170314f7c43a2dee3fcaa1b6f643f6630c"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "366932233e81dc4c",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 157,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457073442,
+              "sig": "ce7b6f36975b74fff5a6d90a5536412e02d929626682b98cf59de8ff95f56ded8702bbe2018d51b0ed4c41b0e12dd80ba8af086b0a911b09fb32b5ae415d8b00"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "366932233e81dc4c",
+              "matchId": "match-seed-bc153ec3",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 153,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457073442,
+              "sig": "5e420ffe5c1224e6a51bf7f214c166dc6e377ca7eead9ac292b2fde73c6e5995ecd7a4b934a4fbd526480b131c6ae7973734fda5291b85de99196d8077de8e0d"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+      "winningReactionMs": 151,
+      "previousHash": "3d3cd7eaebe93df5a4da592a93bf8bd7e0e573fd018703aa0f5717d59dc52ab5",
+      "merkleRoot": "a2c9f762985a1ef057c36ef847c43b961bb0dc0fb43018f6a715ee3cda301c7d",
+      "nonce": "9b1f66774565dbe0",
+      "proposer": "node-03",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "239b38a22f51c4a0539c9cbad4af381155fc96afae043bd9ce634990b57fbafdd4b6e705862205291b05ebfcc75deaa1bf038c0d8730a4d7402664281ca78309",
+      "hash": "e44e8585615adbd5a84bea06956a7c96d25834c1746052c100a785069a0177fd"
+    },
+    {
+      "index": 6,
+      "timestamp": 1788457077268,
+      "matchId": "match-seed-5ec76f94",
+      "transactions": [
+        {
+          "txId": "70308a59ceac269f",
+          "matchId": "match-seed-5ec76f94",
+          "turnIndex": 0,
+          "player": "0xc1254f70bbefe94168dd292d9a43c3cbf7a37514",
+          "outcome": "VALID",
+          "reactionMs": 178,
+          "eventId": "013e27f0508f1ee1",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "013e27f0508f1ee1",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 0,
+              "player": "0xc1254f70bbefe94168dd292d9a43c3cbf7a37514",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 1,
+              "canonicalReactionMs": 178,
+              "votedAt": 1788457076426,
+              "sig": "5b0a10a1cd4ef7a6415bb9b6461d4dda5428fcf113f7414cc0be20e15c5a4e1e5eb65138cd125379592ec2bb61789a4cfa52a66d4e010b0334e897e2c02e4d0c"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "013e27f0508f1ee1",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 0,
+              "player": "0xc1254f70bbefe94168dd292d9a43c3cbf7a37514",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 131,
+              "canonicalReactionMs": 178,
+              "votedAt": 1788457076203,
+              "sig": "cb0ecad21ff9eb887160add71b518c76992a1365b5ef916d22c43371e8d019bceedb2d654655948d836b8cfd34341fea0470d8610f9d71e7fbcff763c175450f"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "013e27f0508f1ee1",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 0,
+              "player": "0xc1254f70bbefe94168dd292d9a43c3cbf7a37514",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 173,
+              "canonicalReactionMs": 178,
+              "votedAt": 1788457076204,
+              "sig": "064657fd756efe0d2c7ad136f5855dba709787c18992c900f685f3c21e0872eaab7e61a1857b5541818e4fca1e71d465d7ff3b8beeded7753ba5172a8b301902"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "013e27f0508f1ee1",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 0,
+              "player": "0xc1254f70bbefe94168dd292d9a43c3cbf7a37514",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 178,
+              "votedAt": 1788457076349,
+              "sig": "960a945a7b8d7aec6f72e1ab92acf446623dd6df1712d1a499ffe92e233bd7363528596c69229918e23a1ee8775d3f622dc4cb544b3ff00b195ee9dd56762001"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "013e27f0508f1ee1",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 0,
+              "player": "0xc1254f70bbefe94168dd292d9a43c3cbf7a37514",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 178,
+              "votedAt": 1788457076417,
+              "sig": "2e6b66835a51a030bab5679ed84d6ff65bcef1e316f9b8c69063b096b3d1683455194ff23b7c1b3ceb2e2ff4f5a076bf5ab531295e858ec9cba7b2e881b22c04"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "eb42d65295f9f0b2",
+          "matchId": "match-seed-5ec76f94",
+          "turnIndex": 1,
+          "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+          "outcome": "VALID",
+          "reactionMs": 266,
+          "eventId": "b10d59e5450659d6",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "b10d59e5450659d6",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 1,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 277,
+              "canonicalReactionMs": 266,
+              "votedAt": 1788457077198,
+              "sig": "493e14bf3fd110191fb4527a498f891214f10424f8f8e3ab8cda11210091228955d53fda292a75b1e4175c711e84d6f78b5b80b7108d09274d4b8896883d3600"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "b10d59e5450659d6",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 1,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 277,
+              "canonicalReactionMs": 266,
+              "votedAt": 1788457077198,
+              "sig": "bac83c174854e7abf81b556d96d687dfa77785d2c7607c947b2c389880f9b7617223fc39020bd5fb6f2e01b30e9de849f9db9a47f044b5db9aafe321fdd3f70a"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "b10d59e5450659d6",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 1,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 218,
+              "canonicalReactionMs": 266,
+              "votedAt": 1788457077198,
+              "sig": "94004052a5325d2a9c7353a00eed029761a0703da188d2d10ec7ca1dfe16a1067148a212cf738c901a9c7133c2ea098fcad319ff0a573eb5842f02d7cdf09505"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "b10d59e5450659d6",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 1,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 277,
+              "canonicalReactionMs": 266,
+              "votedAt": 1788457077198,
+              "sig": "dabfa951b0f52188a6e794ff1d5c9528a49a824eaa5347a186cbaa00119d91742890fdb7bcaa0807cdb959628070e1b2a656a3603c47221145328682a98d200a"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "b10d59e5450659d6",
+              "matchId": "match-seed-5ec76f94",
+              "turnIndex": 1,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 277,
+              "canonicalReactionMs": 266,
+              "votedAt": 1788457077198,
+              "sig": "4e1b00ea55b0af1e63d5cb581c820cdc2aee60febbf6271fa7bdc9aca45863e8ef92c623ba8d06933c13d6d965430ac2771ae849197bafffb4b4cb987b070408"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0xc1254f70bbefe94168dd292d9a43c3cbf7a37514",
+      "winningReactionMs": 178,
+      "previousHash": "e44e8585615adbd5a84bea06956a7c96d25834c1746052c100a785069a0177fd",
+      "merkleRoot": "8c6cc8b500decf1f5c29bc3b5c120a3727e2f4f4ceb271123fd8248353ff7569",
+      "nonce": "34bb68018e0a98a1",
+      "proposer": "node-05",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "eb16f65c4426f09ab3b09a4a3b8dc3f97ad4e0a1b7cebd48a956e9b8baca6a774690bafa42a71476fc6573002001ab1c3837facd4f23fa04aab161cce43f090b",
+      "hash": "07995bf49fba1dd56525aab0b2e7157e8f27971399cc52098ad4d67f3022b98b"
+    },
+    {
+      "index": 7,
+      "timestamp": 1788457081020,
+      "matchId": "match-seed-78a187a6",
+      "transactions": [
+        {
+          "txId": "2413c5817f3528c6",
+          "matchId": "match-seed-78a187a6",
+          "turnIndex": 0,
+          "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+          "outcome": "FALSE_START",
+          "reactionMs": null,
+          "eventId": "7ab9545127dcfc22",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "7ab9545127dcfc22",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 0,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "REJECT",
+              "reasons": [
+                "FALSE_START"
+              ],
+              "observedArrivalDeltaMs": null,
+              "canonicalReactionMs": null,
+              "votedAt": 1788457079778,
+              "sig": "040fe06f962ac34ce65fc1e9238b9494d2f141734027b61a251b564f30ca7b44cc83223308a32c47619697460c4cd2feb690099e343a032a2a83ca3a6fa89b08"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "7ab9545127dcfc22",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 0,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "REJECT",
+              "reasons": [
+                "FALSE_START"
+              ],
+              "observedArrivalDeltaMs": null,
+              "canonicalReactionMs": null,
+              "votedAt": 1788457080296,
+              "sig": "e59d2435b0dff04ab9c33642c8d17cf6c1a81f574f22cfa611b2561dce7ad88a677fe00ab501021e9ab08f28f5f02ef4aa6959023a3868019e2f86759daae301"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "7ab9545127dcfc22",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 0,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "REJECT",
+              "reasons": [
+                "FALSE_START"
+              ],
+              "observedArrivalDeltaMs": null,
+              "canonicalReactionMs": null,
+              "votedAt": 1788457079848,
+              "sig": "74fde6a2dcd5820fdcdce42915b3feb91f77a0cb4de5dd3b472d8acbb5b5ed55167558114ea8276e800eb7bc50b881f0c34dd217e18821d46897d0a0af0f760a"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "7ab9545127dcfc22",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 0,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "REJECT",
+              "reasons": [
+                "FALSE_START"
+              ],
+              "observedArrivalDeltaMs": null,
+              "canonicalReactionMs": null,
+              "votedAt": 1788457079778,
+              "sig": "764281b7cca3707a931dc935e694991765f342c7255d1b38c174fd981d8bdd56fcdb5127508d2470164e404e0f1c280c31c489838474b59fa2fb5c73f7ac2407"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "7ab9545127dcfc22",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 0,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "REJECT",
+              "reasons": [
+                "FALSE_START"
+              ],
+              "observedArrivalDeltaMs": null,
+              "canonicalReactionMs": null,
+              "votedAt": 1788457079779,
+              "sig": "dd5efa0f6e82a050d2206bf3c6bd1a27f1cca7f04d5e1785aaea46ecf1ddb36995821ed3e59091c4d4db0ae616bae4b96b2c350a1c41ef32b7838bf3ec62e405"
+            }
+          ],
+          "approvals": 0,
+          "total": 5
+        },
+        {
+          "txId": "3f9b8ef693edfe79",
+          "matchId": "match-seed-78a187a6",
+          "turnIndex": 1,
+          "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+          "outcome": "VALID",
+          "reactionMs": 245,
+          "eventId": "eff5a4d376e7229f",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "eff5a4d376e7229f",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 1,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 214,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457080944,
+              "sig": "56f28db94dadfd0a712aee757c7630690d882ebb739d7b8c7d4a2e9ff724d333447671f5912a482a38c0bbc91cae9ca95e2d708e888cf35d0b993da7427ee90a"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "eff5a4d376e7229f",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 1,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 241,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457080944,
+              "sig": "5479d330d861d441c06a170f3c68f08f660df464c144bb435b138d4992004e154214cf6c8d09a32ff6fad14a6df044ca3232904aa791382308a83e63a35d270d"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "eff5a4d376e7229f",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 1,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 242,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457080944,
+              "sig": "c4e310e9cb0b4e1e4360e7fac4139a88b906a01a04efe993660cb0a022068af977f50ff3edbab595a1343cdfbd66d999e7623b64df16696bb2a8306a45031c0b"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "eff5a4d376e7229f",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 1,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 238,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457080944,
+              "sig": "4a900decf939bcff06dc2cc96c53191c1dcef0eb319a32b56dac1760952fd5b0d60860b5172da231ebf3c423012ab0a9b52427733802148a1dd70067dc5c9c0c"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "eff5a4d376e7229f",
+              "matchId": "match-seed-78a187a6",
+              "turnIndex": 1,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 176,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457080944,
+              "sig": "fc9f04c6bf83bf23826875b8ec99d61cb6f77599f09e782f4f7ea9be8d4d52c0270d345c559818302a9b551e42ec0fc15f634c74cdb7f94e5480fb6390b9be02"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+      "winningReactionMs": 245,
+      "previousHash": "07995bf49fba1dd56525aab0b2e7157e8f27971399cc52098ad4d67f3022b98b",
+      "merkleRoot": "b4df34b26958062bcc639f8d1116c57ec8000e03940efee240117c64aab9f331",
+      "nonce": "7377cb6cc379181d",
+      "proposer": "node-02",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "b32e176f631b198bfcc9d20f9274b3dac74b4ab65a7b190986290a9861d1616ee4d3d3d2bbd6ae0314600c19ec61aeb1476c3bd0cc39c437b31c5d34d3a38002",
+      "hash": "182a0c887e1fd93de8252cc0f9158e9782e18474678dc26cfca5e1d4b779e2c4"
+    },
+    {
+      "index": 8,
+      "timestamp": 1788457085046,
+      "matchId": "match-seed-9deedc9c",
+      "transactions": [
+        {
+          "txId": "261e603385525e42",
+          "matchId": "match-seed-9deedc9c",
+          "turnIndex": 0,
+          "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+          "outcome": "VALID",
+          "reactionMs": 158,
+          "eventId": "e89ffe4a84c9d686",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "e89ffe4a84c9d686",
+              "matchId": "match-seed-9deedc9c",
+              "turnIndex": 0,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 158,
+              "votedAt": 1788457083958,
+              "sig": "75cbf7a86072917d77eb866f9d8cc05ef685bcf84dcf1585e2617f894e14c6655097c7faec09ff48958d6a2a089930921c6cef143b9331d05ec42a1fb1fa8203"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "e89ffe4a84c9d686",
+              "matchId": "match-seed-9deedc9c",
+              "turnIndex": 0,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 150,
+              "canonicalReactionMs": 158,
+              "votedAt": 1788457083705,
+              "sig": "ae695d51ccbc816be82a697540da9c58c85566000a7ad6f9cc922182fe1f6aee83d751921ad32cf3e69e6008ee9990477ead6544af5cb00886a1bed121b9390d"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "e89ffe4a84c9d686",
+              "matchId": "match-seed-9deedc9c",
+              "turnIndex": 0,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 158,
+              "votedAt": 1788457084174,
+              "sig": "b9c5bc1f256424c9bd909a57452f3070aad9922407823f388121652a9522583073a25016502bed87261e28d2b4c081efb7823b55cbd471152e2ab5f02afaff00"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "e89ffe4a84c9d686",
+              "matchId": "match-seed-9deedc9c",
+              "turnIndex": 0,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 158,
+              "votedAt": 1788457084001,
+              "sig": "8139b42b99edd1aea49a4afa4d242de514705fbe9ed3e9711813a18d06c19f2a8c51d7d9f9d47958a62360c6753178935263d7cc257d3f98e26977df7cbd6e05"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "e89ffe4a84c9d686",
+              "matchId": "match-seed-9deedc9c",
+              "turnIndex": 0,
+              "player": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 158,
+              "votedAt": 1788457083979,
+              "sig": "845e32144659b4297812d4ce9be9131bef782a792434e1d393b10dfcde6cea18578fb04bdac2a6c97cd1151e26eecaa8aeecb2e4e58fc15c4837fdb8ea29ad0f"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "c52867303ece2694",
+          "matchId": "match-seed-9deedc9c",
+          "turnIndex": 1,
+          "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+          "outcome": "VALID",
+          "reactionMs": 277,
+          "eventId": "700f352b319ab902",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "700f352b319ab902",
+              "matchId": "match-seed-9deedc9c",
+              "turnIndex": 1,
+              "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 285,
+              "canonicalReactionMs": 277,
+              "votedAt": 1788457084720,
+              "sig": "09770b8b41689ac1d19599933b91d982f19fe6119a1395b7908b6b33b90764c06f31c3ac699048bf14f504b5cf762f409e0288b6181dedcdb57c406515c5f00d"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "700f352b319ab902",
+              "matchId": "match-seed-9deedc9c",
+              "turnIndex": 1,
+              "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 282,
+              "canonicalReactionMs": 277,
+              "votedAt": 1788457084720,
+              "sig": "8170b99cdd1fb49ad98e59fa8d6d5f3267a7d6204d53bba8aaf2f981383f4d4eeea57349b3c992b4e4d316ccce9aa803943959e90b9ac2614adb961f92f5c404"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "700f352b319ab902",
+              "matchId": "match-seed-9deedc9c",
+              "turnIndex": 1,
+              "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 285,
+              "canonicalReactionMs": 277,
+              "votedAt": 1788457084720,
+              "sig": "015038d1dbb4dde4d3730bc67ae1dcf41183cb83e58537a45b55b275d75f7e506935d90fbdb6f5c538244378af02df24221f42109179a0a183ef5aee8de3f700"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "700f352b319ab902",
+              "matchId": "match-seed-9deedc9c",
+              "turnIndex": 1,
+              "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 282,
+              "canonicalReactionMs": 277,
+              "votedAt": 1788457084720,
+              "sig": "adb2e0fc5b2d217f79f044ef99e2d12e633fd332fad7359aeaa8a5a0e84d594a91367b6c5a7f9857e313dd0d0c9f8dcf362a1a6356f80c09d72d58deca140208"
+            }
+          ],
+          "approvals": 4,
+          "total": 5
+        }
+      ],
+      "winner": "0x025c6979bf48295a070eea46d9cfa711fe6c9122",
+      "winningReactionMs": 158,
+      "previousHash": "182a0c887e1fd93de8252cc0f9158e9782e18474678dc26cfca5e1d4b779e2c4",
+      "merkleRoot": "c54f28f186e87c9f5977c2022488d8d63f718cc6ab7aa77e4b63e9257278a74a",
+      "nonce": "33c183da6a095dfe",
+      "proposer": "node-03",
+      "consensus": {
+        "approvals": 4,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "91d1a3bfa920f65f2b314c0884fc65e81604584059a0e95609fbbcae13aefcbff2e51d3e28c137e94f721a91795cb3ab329e817242db9d400ed1426010b2060b",
+      "hash": "5589d33ef5d390bcdca82d35ed94a41276fa45173432dace073aa32698419916"
+    },
+    {
+      "index": 9,
+      "timestamp": 1788457088824,
+      "matchId": "match-seed-ca1ddaa6",
+      "transactions": [
+        {
+          "txId": "84ee74703a23c01e",
+          "matchId": "match-seed-ca1ddaa6",
+          "turnIndex": 0,
+          "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+          "outcome": "VALID",
+          "reactionMs": 151,
+          "eventId": "585469ad8c9643be",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "585469ad8c9643be",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 0,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457087815,
+              "sig": "1c0cb74a1605056cda8a5e91f94dcda2cc77f762bf511ffba309de1692ef3563e0e9bc2f2443991a8cface4260504b116c879cb5efbbc4b997ec6d251dcfc102"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "585469ad8c9643be",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 0,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457087528,
+              "sig": "66b6fdf3ca2a10e83adb88d5bcb2e205289672830c7936fde7c07108af0d2d38dc3427c5b71d8a33a9f826a2eb940832ac343b041f63f4ba6dc5185574be4c05"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "585469ad8c9643be",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 0,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 150,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457087463,
+              "sig": "b9dbed52f0c32fca69f18b196ec03fe88530eda60195b35a419698fe921dec8bc9d96a53f84ca8ca4882dbee438a6516a223dc8f6709e3e2995ee3f391a4320c"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "585469ad8c9643be",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 0,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457087829,
+              "sig": "97664d26aa4accfeb460c2c9ba12ce233b4eab74e393daa7c287ef35b5a265af4c6e083d27e3cda0c6a69c6ef9cf2451b07050312c7e6d4d5fad223ff148d600"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "585469ad8c9643be",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 0,
+              "player": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 151,
+              "votedAt": 1788457087819,
+              "sig": "e66f5ed2276b69e9a14700c25ff8b1e721adc4fa3b321382f0a60142e635acef87eb584705cac679296b0a6989e3c070c57c132e741db1d6f8939d0e4bede40c"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "91436202283576bc",
+          "matchId": "match-seed-ca1ddaa6",
+          "turnIndex": 1,
+          "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+          "outcome": "VALID",
+          "reactionMs": 210,
+          "eventId": "38fb6bb9ee5a03c6",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "38fb6bb9ee5a03c6",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 1,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 214,
+              "canonicalReactionMs": 210,
+              "votedAt": 1788457088388,
+              "sig": "62da1c08a5b3b31fe1d3f76c87350ac2bfa41447191c688ecd979484e05c3b1188a0dce159b1702a3b9c2e80ecf775ac5c08796a8a8f22f8daacd0c242f14e01"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "38fb6bb9ee5a03c6",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 1,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 210,
+              "votedAt": 1788457088554,
+              "sig": "3a306a2fe31928c7a51d430880181869a654ba8d7a2171f50349af430ef557f31a0bc57166d9b616632337456a5315553d0b6bc4f1a4a1d7d3975381d0958105"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "38fb6bb9ee5a03c6",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 1,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 621,
+              "canonicalReactionMs": 210,
+              "votedAt": 1788457088795,
+              "sig": "66f03f178b5a6bcc4ee6f1e748be9dbec5b255f37151e3ca9912f59a5f6a5066fd8647d517aa42d2b76eb8aef1f6e5a8ae208afd0384bb57c1bf8b8750ed220b"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "38fb6bb9ee5a03c6",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 1,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 214,
+              "canonicalReactionMs": 210,
+              "votedAt": 1788457088388,
+              "sig": "2ba40af575324f9404ab1cc35752c474ea8385768105252b016235a4c0f58d1a46b5e2b61e9475240c840d2a6d2bbd44aba1232d112b5e33ab5695a19cdcd008"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "38fb6bb9ee5a03c6",
+              "matchId": "match-seed-ca1ddaa6",
+              "turnIndex": 1,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 213,
+              "canonicalReactionMs": 210,
+              "votedAt": 1788457088389,
+              "sig": "82d5fc6a1348370bd3c9ea1385ec05ad0e03bccbeee623a32625f3a8239fe976e6f2e89db629e435ea8f7bf67cf9263450ca49cbba4ba5e08ef72f49db969202"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0x02b560491f8069f38c8f408d0bf4371479c732bf",
+      "winningReactionMs": 151,
+      "previousHash": "5589d33ef5d390bcdca82d35ed94a41276fa45173432dace073aa32698419916",
+      "merkleRoot": "b74b678f963b2a5d7cb7d5d86b8cd88e5236394f290578b520b12682387e5659",
+      "nonce": "cb1b31fc9b86e084",
+      "proposer": "node-02",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "02b92bc457bee75423044bb6a0d69c8d009bc1d43436ce7be747b47394126f1a5bcd06481e885827d94950986c8c86fc62ea80fce3479fb08c517ae87546b008",
+      "hash": "cd3126ed153dfc30a4cb47734c1122576b5c646a8f33573bf99fc5c270292bcb"
+    },
+    {
+      "index": 10,
+      "timestamp": 1788457094352,
+      "matchId": "match-seed-7bc3d588",
+      "transactions": [
+        {
+          "txId": "a1db25e20e65b1fe",
+          "matchId": "match-seed-7bc3d588",
+          "turnIndex": 0,
+          "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+          "outcome": "VALID",
+          "reactionMs": 153,
+          "eventId": "857f7476a3f7259b",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "857f7476a3f7259b",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 0,
+              "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 153,
+              "votedAt": 1788457092842,
+              "sig": "37e5a9fc24665db581a2fc5b8a7e2a373628ac651f0148a0bc80b29867554f07461996dcf24bfc879ea444192ef194976f5d273c432475ce1f81aa651f589004"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "857f7476a3f7259b",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 0,
+              "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 86,
+              "canonicalReactionMs": 153,
+              "votedAt": 1788457091123,
+              "sig": "77aeec6024765ab48ea5f7f4073cc57f22b35110b28aa2ee0db8b34bcbdd60c7d90a287f168c72194fbc9f8424decea3bcd610eba48981bbccfcab9742013e0c"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "857f7476a3f7259b",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 0,
+              "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 153,
+              "votedAt": 1788457092311,
+              "sig": "ed2ae1f9bf7d0e37e4a12493c8109d1dbf58213d5c00c7f6b4dae3b7f76e7e02ec78e6d9acc2ddab2455ac41b28693160b154acb38ea4bc838b87ca753c37e08"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "857f7476a3f7259b",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 0,
+              "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 153,
+              "votedAt": 1788457092813,
+              "sig": "5ba3e2cb6f1e647ce1a7edf39d52b22969738f1a88d62fee7f7b7dbb4fb85fafd339fdcc3a9475ac8afb83f8b4aa60b15c2a89be11abb1546c1ee9467b516800"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "857f7476a3f7259b",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 0,
+              "player": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 153,
+              "votedAt": 1788457092903,
+              "sig": "3aaa483e6d739b217a8b9516bb6bafd730ad6d8901d698b07a84a560432d6f2259ecdc5a4e9c6672f2b2127fd9f1b3bdfe695fbfde7912d5a5e2b59a4b678403"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "1ef20792fc49b321",
+          "matchId": "match-seed-7bc3d588",
+          "turnIndex": 1,
+          "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+          "outcome": "VALID",
+          "reactionMs": 219,
+          "eventId": "4886ecb3da8c9a65",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "4886ecb3da8c9a65",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 1,
+              "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 219,
+              "votedAt": 1788457092884,
+              "sig": "bb65d1e4a3d3860dedd77cc0384539713df74d78960fda7ea7de015bece2180a6dfcd69311b987a7a696f5f8386f35d4934ad6a581b1308235070496d034f304"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "4886ecb3da8c9a65",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 1,
+              "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 1901,
+              "canonicalReactionMs": 219,
+              "votedAt": 1788457093754,
+              "sig": "c61cb934bb5e25e754ceb171f5d169e79b1a85492f36803ff43ca9b731a69e51f5b03a3efd6afe228cde60c2b3b42cee03fec4e1143ceca558a7d60bffb91900"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "4886ecb3da8c9a65",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 1,
+              "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 1,
+              "canonicalReactionMs": 219,
+              "votedAt": 1788457092353,
+              "sig": "e29f8220e7272352e8f4b38451f9326ad28bafc70eac262cdcf130e903a270e3e86d79b85fddd622e2f8bc26baf93d19e0fb106c9f4bd781d5d56c76167e4a08"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "4886ecb3da8c9a65",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 1,
+              "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 219,
+              "votedAt": 1788457092862,
+              "sig": "e45e9b815d2fb469dfe524d0571ee491f7d326483d22971c61e96b9dafad253cbbf8b210a0b3d18ed8a66c283214a3191028163776b36bc2bf64aa789ed8bb0a"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "4886ecb3da8c9a65",
+              "matchId": "match-seed-7bc3d588",
+              "turnIndex": 1,
+              "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 219,
+              "votedAt": 1788457092940,
+              "sig": "1dd145ac7f291251bb7b87a4285e7c0907f337a8a68292c654c405e3e3e0d033ccdb5680be8616a636aa446f2c32d26143b049505b0927cf31bfa498e173e801"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0x550624b6f685bea7ac6e3c5a998dda1a5c972cf7",
+      "winningReactionMs": 153,
+      "previousHash": "cd3126ed153dfc30a4cb47734c1122576b5c646a8f33573bf99fc5c270292bcb",
+      "merkleRoot": "0dd14d589c01c4eeaf3429c6a923b84ddbd05abb221046ea510d28a0acdff087",
+      "nonce": "5919c44e6dd91099",
+      "proposer": "node-03",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "04c59917c95130db15b74521ce5caecaad191e0a408a8c00e591752138c000ad9b4be68bec90c52c0e6cb26de8ef2b1e2c93e95c8f0a5316021ed258005a7d03",
+      "hash": "3475074802868b994dc6201a0af4b5ed46752043a7b73c36dd7f3e9d0345bc52"
+    },
+    {
+      "index": 11,
+      "timestamp": 1788457098226,
+      "matchId": "match-seed-977cc9c3",
+      "transactions": [
+        {
+          "txId": "13715e8629c5a5b5",
+          "matchId": "match-seed-977cc9c3",
+          "turnIndex": 0,
+          "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+          "outcome": "VALID",
+          "reactionMs": 260,
+          "eventId": "7d19f54fa625eb51",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "7d19f54fa625eb51",
+              "matchId": "match-seed-977cc9c3",
+              "turnIndex": 0,
+              "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 257,
+              "canonicalReactionMs": 260,
+              "votedAt": 1788457094927,
+              "sig": "47a2e5acecb24a051795b69f0fb6c02970f8d4ac2da98e8f30472f49c3a9a844e12dc731dd2e65e4797127b19ca7af81a1ab1705829ce44cdca278713362790c"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "7d19f54fa625eb51",
+              "matchId": "match-seed-977cc9c3",
+              "turnIndex": 0,
+              "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 17,
+              "canonicalReactionMs": 260,
+              "votedAt": 1788457094927,
+              "sig": "8c5a64e70f40785c533a0841a82285a5d78926c89e476ad613bd343276ecde2c9de754578e2375117f2c7cb1a0e70ab40cf3043613fddbdc51bbea6429d2ed06"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "7d19f54fa625eb51",
+              "matchId": "match-seed-977cc9c3",
+              "turnIndex": 0,
+              "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 256,
+              "canonicalReactionMs": 260,
+              "votedAt": 1788457094927,
+              "sig": "558ed0dd2c251d2b40b9d59846cdb1809f742408edb27c4d20a657e9c60d444da927a8abe009312d43bc8e2a0ca7f7c65e19cefcfc9b399c7cac01a3aaa0ae0d"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "7d19f54fa625eb51",
+              "matchId": "match-seed-977cc9c3",
+              "turnIndex": 0,
+              "player": "0x1ad4a1e77ea9eaeb3530083a89fa947af0c618e4",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 255,
+              "canonicalReactionMs": 260,
+              "votedAt": 1788457094929,
+              "sig": "dcf1e1dbc732734f25572d9207096d499f53564f4918bef0ab9537b2877dded342b120e04cd474aa908f3730ffc8e66007349bafe1d95cb63ed6ae23ac703d0a"
+            }
+          ],
+          "approvals": 4,
+          "total": 5
+        },
+        {
+          "txId": "9fd0857af8f6ef07",
+          "matchId": "match-seed-977cc9c3",
+          "turnIndex": 1,
+          "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+          "outcome": "VALID",
+          "reactionMs": 222,
+          "eventId": "eea5a888be589f5a",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "eea5a888be589f5a",
+              "matchId": "match-seed-977cc9c3",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 222,
+              "votedAt": 1788457096424,
+              "sig": "8ca3a71ae0e0e346bfa63ce9a7841ff1c3b6980e24a6cabcae61a364890e0c24b334b1f1b2563a9d3ce39ec5df7257ae9f95d5195dd9391f8173030733668a07"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "eea5a888be589f5a",
+              "matchId": "match-seed-977cc9c3",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 2527,
+              "canonicalReactionMs": 222,
+              "votedAt": 1788457098169,
+              "sig": "f944156fa38b2aa21389410a057373bc5ff21c23e3b3b275ce8b1aea71c605935da6ae3971395e22b63715b535910afad67309b37cd9c6a3686f4e4ed23c5c05"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "eea5a888be589f5a",
+              "matchId": "match-seed-977cc9c3",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 49,
+              "canonicalReactionMs": 222,
+              "votedAt": 1788457095934,
+              "sig": "569f08eb1293a4853b255e6c582afe074209de7885297293c5eb630f5c993ce4a720d3d82e413bfc97352dcdf9a5c28a8a7e56e3ce1046dfd69d99fd111bdb04"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "eea5a888be589f5a",
+              "matchId": "match-seed-977cc9c3",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 222,
+              "votedAt": 1788457096411,
+              "sig": "3c97e995dfc2362f9ab67e028436cacc4a32f4e7ed67982439eed119fcb44c6784705f5a38b223566957d2fed4c7caf610ae9c0b636d8676ba3a7fe5dce2460d"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "eea5a888be589f5a",
+              "matchId": "match-seed-977cc9c3",
+              "turnIndex": 1,
+              "player": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 222,
+              "votedAt": 1788457096433,
+              "sig": "54568ea19e0ebb97979a2b2883faf1d0eeaf3a0e6afc008cf38d4585570e310aaee9c7adb4f50974d4c70c0e9207b51ddcb5197ee7d3f475db1cb34139439c04"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0x29d0b59a60c3f3e62954ecaf5d235d611fca02bb",
+      "winningReactionMs": 222,
+      "previousHash": "3475074802868b994dc6201a0af4b5ed46752043a7b73c36dd7f3e9d0345bc52",
+      "merkleRoot": "1074ec9632913c7f564c6a85a721c52ad6274eb685d6e5302a9fad3bd7a5d986",
+      "nonce": "86a45f8bffac7d67",
+      "proposer": "node-02",
+      "consensus": {
+        "approvals": 4,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "6ab8c6b295f70b6e06b8c77abea55e16e46caef518c0d97acf8a3153f0bf29058148abfbf39d812d01dc8c0ffdb8ee64e00c04ceab2c07e280ef232b89697501",
+      "hash": "db9cc69a700fe4fee56ff69ce5a2927ebedd2b9fd7d3dcbbec44f1a603d4121b"
+    },
+    {
+      "index": 12,
+      "timestamp": 1788457103527,
+      "matchId": "match-seed-603645d0",
+      "transactions": [
+        {
+          "txId": "048bdfaaba670678",
+          "matchId": "match-seed-603645d0",
+          "turnIndex": 0,
+          "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+          "outcome": "VALID",
+          "reactionMs": 198,
+          "eventId": "c74670674c438dce",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "c74670674c438dce",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 198,
+              "votedAt": 1788457098753,
+              "sig": "6b43b0079862f9e4a6078b552a3bc2c873889f59f493448bc08475a8f1e77f527c60e125f96441d1f391803e95174e9152eff7d872dd4a5b01753785aed1600e"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "c74670674c438dce",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 198,
+              "votedAt": 1788457099414,
+              "sig": "f2e224c9795b7219b31428cd2511fdefc9893faf44a384e5d0064b608b6c34685c16c13350c8e0ee4921f223b6b7ce921227609aae6e4245b31fe90bae67cf06"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "c74670674c438dce",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 198,
+              "votedAt": 1788457099008,
+              "sig": "93fd4e4ef5908fbf02dd2579cb92d4d84c31ec5f90b57e0d133e62e685f0acbdb585897f19c89e7f77bc67d47ef944663e251c304adffd3a5a3bddb3a8f9e10f"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "c74670674c438dce",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 198,
+              "votedAt": 1788457098727,
+              "sig": "98416a7403a539a99e03073928db1b02278c3c48c1d3aebd8bc8b9c38da884c64d50459f705fcba294382c58ded8a63ade24de808205d803155d50d6001ddf05"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "c74670674c438dce",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 0,
+              "player": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 198,
+              "votedAt": 1788457098758,
+              "sig": "60fb59694cbe4ccc961b227d2c1c98010978522c3647d71a0cd0a7d5e0495626f20869be83e85b27c83d41bed38f174494bd1f08c84fc7c3300bcd41fd27ad0a"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        },
+        {
+          "txId": "4a2ed97db5084f8d",
+          "matchId": "match-seed-603645d0",
+          "turnIndex": 1,
+          "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+          "outcome": "VALID",
+          "reactionMs": 245,
+          "eventId": "006437000e1daae1",
+          "votes": [
+            {
+              "validatorId": "node-01",
+              "eventId": "006437000e1daae1",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 2778,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457102140,
+              "sig": "d5ab3bfba367708903113dc4486ab6d7d1957541f238b49309c3823fd155185f02ed8a0c62a1086b4221e3fa3065dd84edb57280c8ef53a3abaa3dcce482d900"
+            },
+            {
+              "validatorId": "node-02",
+              "eventId": "006437000e1daae1",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 1605,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457101048,
+              "sig": "8185364b1ab10775cecb2037a2ca3fe2e164047ae7b3883443700b311b2aba16e1a8984363c969b322dc2bafafe8fbf6fea7098d857ed9c17a3863d445880006"
+            },
+            {
+              "validatorId": "node-03",
+              "eventId": "006437000e1daae1",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 0,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457100665,
+              "sig": "01ffcc984f52c1e570e821e3354df4e4417057a680cafff62544186b4159ee32ea3ed180777019837b6b9d95257713ea3163df1e6035219dcc4557e994ef160e"
+            },
+            {
+              "validatorId": "node-04",
+              "eventId": "006437000e1daae1",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 2797,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457102160,
+              "sig": "c64dc8697d18358139fed7d05c6533618b12e24b6d23bb608223c6f9e1f4ed46e009ca9d12f9f8c73b2e47d560907653e9f8e3205769b1fb2e926f8f881cea05"
+            },
+            {
+              "validatorId": "node-05",
+              "eventId": "006437000e1daae1",
+              "matchId": "match-seed-603645d0",
+              "turnIndex": 1,
+              "player": "0x51a387669c91ccd8983f0d62ffdfd20ab9549cb8",
+              "verdict": "ACCEPT",
+              "reasons": [
+                "SIG_OK",
+                "ROUND_OK",
+                "NOT_DUPLICATE",
+                "WITHIN_HUMAN_RANGE",
+                "WITHIN_LATENCY_ENVELOPE"
+              ],
+              "observedArrivalDeltaMs": 2806,
+              "canonicalReactionMs": 245,
+              "votedAt": 1788457102169,
+              "sig": "715f8465466c115273cf45ddd211689c5d5c5c4d8e8536e0e060d9f2e64c236d36df2d754dfe21e566c44db801fd0d27fe435656c64eca65b9a3f3605f8d9c07"
+            }
+          ],
+          "approvals": 5,
+          "total": 5
+        }
+      ],
+      "winner": "0x3812f1edfbe1265873013ff2417d27f60227dac6",
+      "winningReactionMs": 198,
+      "previousHash": "db9cc69a700fe4fee56ff69ce5a2927ebedd2b9fd7d3dcbbec44f1a603d4121b",
+      "merkleRoot": "741ed934aca40e7ea2f031821e887aa21c2e971cf47f4cace3dddea121cfd6df",
+      "nonce": "9567ece661c3975d",
+      "proposer": "node-03",
+      "consensus": {
+        "approvals": 5,
+        "total": 5,
+        "threshold": 4
+      },
+      "proposerSig": "d2522b61a54edc1e25e3196f8884beee2dd0813e6d568128a75384185b08981dca60249fad0526872821cd754be00926b10d0b9a5281862a8eb7d5b2310d2303",
+      "hash": "9f44369f52b85b365a037f761b753773147bed111aa655da15c2bec07b38221a"
+    }
+  ]
+}
