@@ -209,7 +209,10 @@ own arrival observation.
 That is the centre of the entire design.
 
 ------------------------------------------------------------------------
-
+# Screenshots and Videos
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/fbe8fd0f-f4be-49aa-b145-a6e15f4c02d9" />
+<img width="946" height="539" alt="image" src="https://github.com/user-attachments/assets/4918a811-1055-4e6b-999a-0397b1e63716" />
+<img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/a8302132-9dcc-4d1f-9b1e-c71acd172ecd" />
 # 🧠 The blockchain concepts I learned by building it
 
 This project was essentially my own crash course in blockchain and
