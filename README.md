@@ -6,6 +6,7 @@
 
 **Built by Razin Ashraf**\
 **Muthoot Institute of Technology and Science**\
+**Team Bruh**\
 **Useless Projects 3.0**
 
 > **Two people pressed a space bar. So I built distributed consensus to
