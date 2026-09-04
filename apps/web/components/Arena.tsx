@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { shortHash } from '@reflexchain/protocol';
-import { useReflex } from '../lib/store';
+import { selectTurnKey, useReflex } from '../lib/store';
 import type { LocalPhase, TurnOutcomeLocal } from '../lib/useGame';
 import type { Wallet } from '../lib/wallet';
 import { Tag } from './primitives';
@@ -39,7 +39,72 @@ export function Arena(props: ArenaProps) {
   const coordinatorLinked = useReflex((s) => s.coordinatorLinked);
   const networkMode = useReflex((s) => s.networkMode);
   const chainSource = useReflex((s) => s.chainSource);
+  const talliesByTurn = useReflex((s) => s.talliesByTurn);
   const [joinCode, setJoinCode] = useState('');
+
+  /**
+   * Both turns, as the NETWORK sees them.
+   *
+   * `localTurns` only ever contains the press this device made, so on two
+   * devices each player could see their own time and never the opponent's -
+   * making it impossible to tell who won. The validator tallies are the fix and
+   * the honest source: every client subscribes to all five validators, so both
+   * devices receive TELEMETRY_TALLY for BOTH turns.
+   *
+   * The local claim is still used before consensus settles, so the player who
+   * just pressed gets immediate feedback - but it is marked unconfirmed until
+   * the network agrees, and the confirmed value always wins.
+   */
+  const turnResults = useMemo(() => {
+    return [0, 1].map((turnIndex) => {
+      const local = localTurns.find((t) => t.turnIndex === turnIndex);
+      const tally = match ? talliesByTurn[selectTurnKey(match.matchId, turnIndex)] : undefined;
+      const settled = tally && tally.status !== 'PENDING';
+
+      if (settled) {
+        return {
+          turnIndex,
+          reactionMs: tally.canonicalReactionMs,
+          falseStart: tally.outcome === 'FALSE_START',
+          rejected: tally.outcome === 'REJECTED' || tally.outcome === 'INCONCLUSIVE',
+          confirmed: true,
+          approvals: tally.approvals,
+          registered: tally.registered,
+          local,
+        };
+      }
+
+      return {
+        turnIndex,
+        reactionMs: local?.reactionMs ?? null,
+        falseStart: local?.falseStart ?? false,
+        rejected: false,
+        confirmed: false,
+        approvals: 0,
+        registered: 0,
+        local,
+      };
+    });
+  }, [localTurns, talliesByTurn, match]);
+
+  /**
+   * Which turn won, once both are confirmed. Only turns the network confirmed
+   * VALID are eligible, so a false start forfeits outright. Deliberately does
+   * not guess from unconfirmed local claims - the winner is not shown until the
+   * validators have actually settled both turns.
+   */
+  const winningTurn = useMemo(() => {
+    const eligible = turnResults.filter(
+      (t) => t.confirmed && !t.falseStart && !t.rejected && typeof t.reactionMs === 'number',
+    );
+    const bothSettled = turnResults.every((t) => t.confirmed);
+    if (!bothSettled || eligible.length === 0) return null;
+
+    const sorted = [...eligible].sort((a, b) => a.reactionMs! - b.reactionMs!);
+    // A tie has no winner rather than an arbitrary one.
+    if (sorted.length > 1 && sorted[0]!.reactionMs === sorted[1]!.reactionMs) return null;
+    return sorted[0]!.turnIndex;
+  }, [turnResults]);
 
   // No validator answered, so there is nothing to play against. Rather than
   // offering controls that can only fail, explain what this page is.
@@ -212,29 +277,50 @@ export function Arena(props: ArenaProps) {
 
         {/* ---------------- per-turn claims ---------------- */}
         <div className="grid grid-cols-2 divide-x divide-ink-500">
-          {[0, 1].map((turnIndex) => {
+          {turnResults.map((result) => {
+            const turnIndex = result.turnIndex;
             const player = match?.players[turnIndex];
-            const local = localTurns.find((t) => t.turnIndex === turnIndex);
+            const local = result.local;
             const isActive = inMatch && activeTurn === turnIndex && phase !== 'COMPLETE';
+            const won = winningTurn === turnIndex;
+            const lost = winningTurn !== null && !won;
 
             return (
               <div
                 key={turnIndex}
-                className={`px-4 py-3 ${isActive ? 'bg-ink-700/60' : ''}`}
+                className={`px-4 py-3 transition-colors ${
+                  won ? 'bg-live-green/10' : isActive ? 'bg-ink-700/60' : ''
+                }`}
               >
                 <div className="flex items-center justify-between">
-                  <span className="stat-label">
+                  <span className={`stat-label ${won ? 'text-live-green' : ''}`}>
                     {player?.label ?? `PLAYER 0${turnIndex + 1}`}
                   </span>
-                  {isActive ? <Tag tone="cyan">ACTIVE</Tag> : null}
+                  {won ? (
+                    <Tag tone="green">WINNER</Tag>
+                  ) : isActive ? (
+                    <Tag tone="cyan">ACTIVE</Tag>
+                  ) : null}
                 </div>
 
                 <div className="mt-1 font-mono text-2xl">
-                  {local?.falseStart ? (
+                  {result.falseStart ? (
                     <span className="text-fail-red">FALSE START</span>
-                  ) : local?.reactionMs != null ? (
-                    <span className="text-slate-100">
-                      {local.reactionMs}
+                  ) : result.rejected ? (
+                    <span className="text-consensus-amber">NO RESULT</span>
+                  ) : result.reactionMs != null ? (
+                    <span
+                      className={
+                        won
+                          ? 'text-live-green'
+                          : lost
+                            ? 'text-muted'
+                            : result.confirmed
+                              ? 'text-slate-100'
+                              : 'text-slate-400'
+                      }
+                    >
+                      {result.reactionMs}
                       <span className="ml-1 text-xs text-muted">MS</span>
                     </span>
                   ) : (
@@ -246,10 +332,14 @@ export function Arena(props: ArenaProps) {
                   <span className="hash">
                     {player ? shortHash(player.address, 8, 4) : '0x-------'}
                   </span>
-                  {local ? (
-                    <span className="text-2xs text-muted">
-                      broadcast to {local.sentTo.length}/
-                      {local.sentTo.length + local.failed.length} validators
+                  {result.confirmed ? (
+                    <span className={`text-2xs ${won ? 'text-live-green/80' : 'text-muted'}`}>
+                      confirmed by {result.approvals}/{result.registered} validators
+                    </span>
+                  ) : local ? (
+                    <span className="text-2xs text-consensus-amber">
+                      awaiting consensus · broadcast to {local.sentTo.length}/
+                      {local.sentTo.length + local.failed.length}
                     </span>
                   ) : (
                     <span className="text-2xs text-muted/50">claim not yet submitted</span>
