@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node"],
+    "paths": {
+      "@reflexchain/protocol": ["./packages/protocol/src/index.ts"]
+    }
+  },
+  "include": [
+    "packages/*/src/**/*.ts",
+    "packages/*/tests/**/*.ts",
+    "apps/coordinator/src/**/*.ts",
+    "apps/validator/src/**/*.ts",
+    "apps/gateway/src/**/*.ts",
+    "scripts/**/*.mjs"
+  ]
+}

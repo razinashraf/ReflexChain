@@ -1,0 +1,33 @@
+{
+  "name": "reflexchain",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PROOF OF REFLEX(TM) - distributed consensus for determining who pressed a button first.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "start": "tsx apps/gateway/src/index.ts",
+    "demo": "node scripts/dev-all.mjs",
+    "dev": "node scripts/dev-all.mjs",
+    "dev:network": "node scripts/dev-all.mjs --no-web",
+    "dev:web": "npm run dev -w @reflexchain/web",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "snapshot": "tsx scripts/export-snapshot.ts",
+    "seed": "tsx scripts/seed-chain.ts",
+    "verify": "tsx scripts/verify-demo.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
